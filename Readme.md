@@ -60,4 +60,11 @@
  * Nota: No olvides prevenir el comportamiento por defecto del formulario.
  */
 
+/**
+ * @description Este punto constara de varias partes:
+ * 1. En el diseño original encontraras que hay diferencias en los colores de las facturas dependiendo de su estado. para las facturas pendientes el color es #ff0000 y para las facturas pagadas el color es #00ce00.
+ * 2. Dentro de la funcion llamada fila encuntra alguna forma de lograr que el color de la fila cambie dependiendo del estado de la factura.
+ * Ideas: podrias utilizar dos templates para mostrar una u otra dependiendo del estado. Tambien podrias utilizar un if y una varialbe para definir el color en una variable independiente.
+ */
+
 ```
