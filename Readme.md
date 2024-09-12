@@ -45,4 +45,19 @@
  * 6. Agrega un escuchador de evento click al boton con la clase close que ejecute la funcion toggleModal.
  */
 
+/**
+ * @description Este punto constara de varias partes:
+ * 1. Utiliza querySelector para llamar el formulario que se encuentra dentro del modal.
+ * 2. Crea una funcion llamada agregarFactura que reciba un evento (e) como parametro.
+ * 3. Crea una instancia de FormData y pasale como parametro el formulario.
+ * 4. Utiliza el metodo get para obtener el valor de cada uno de los inputs del formulario.
+ * 5. Crea un objeto con las propiedades que se encuentran en el formulario
+ * 6. Agrega el objeto creado al array facturas
+ * 7. Ejecuta la funcion todos que creaste en el paso 1.
+ * 8. Cierra el modal.
+ * 9. Resetea el formulario.
+ * 10. Agrega un escuchador de evento submit al formulario que llamará a la función agregarFactura.
+ * Nota: No olvides prevenir el comportamiento por defecto del formulario.
+ */
+
 ```
