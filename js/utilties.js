@@ -1,3 +1,11 @@
+/**
+ * @description Arreglo de objetos con información de facturas con los siguientes campos:
+ * id: número de identificación de la factura
+ * numeroFactura: número de la factura
+ * descripcion: descripcion de la factura
+ * estado: estado de la factura - pendiente o pagada
+ * fecha: fecha en la se igresó la factura
+ */
 export const facturas = [
     { id: 1, numeroFactura: "F001", descripcion: "Compra de muebles de oficina", estado: "pagada", fecha: "12-10-2023" },
     { id: 2, numeroFactura: "F002", descripcion: "Suscripción a servicio de internet", estado: "pendiente", fecha: "05-02-2024" },
