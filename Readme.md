@@ -67,4 +67,18 @@
  * Ideas: podrias utilizar dos templates para mostrar una u otra dependiendo del estado. Tambien podrias utilizar un if y una varialbe para definir el color en una variable independiente.
  */
 
+/**
+ * @description Este punto constara de varias partes:
+ * 1. En el diseño original notaras que el boton de eliminar solo aparece cuando el estado de la factura es pagada.
+ * 2. Dentro de la funcion fila Encuentra una manera de que el boton de eliminar solo aparezca cuando el estado de la factura sea pagada.
+ * Ideas: Podrias agregar una clase al boton de eliminar y luego en el css ocultar el boton de eliminar. Tambien podrias tener 2 template uno con el boton de eliminar y otro sin el boton de eliminar.
+ */
+
+ /**
+  * @description: Este punto constara de varias partes:
+  * 1. Crea una función llamada eliminar facturas que reciba un parametro llamado id
+  * 2. Dentro de la función eliminar facturas, itera el array facturas y elimina el objeto cuyo id sea igual al id que se recibe como parametro.
+  * Nota: Para eliminar un objeto de un array puedes utilizar el método filter o splice. Si utilizas el metodo splice, tambien necesitaras utilizar el metodo findIndex.
+  */
+
 ```
